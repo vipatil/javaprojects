@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/investment" xmlns:tns="http://www.example.org/investment" elementFormDefault="qualified">
+
+
+
+
+
+    <element name="investments" type="tns:investments"></element>
+    
+    <complexType name="investments">
+    	<sequence>
+    		<element name="investment" type="tns:investment"
+    			maxOccurs="unbounded" minOccurs="0">
+    		</element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="investment">
+    	<sequence>
+    		<element name="symbol" type="string"></element>
+    		<element name="name" type="string"></element>
+    		<element name="transaction" type="tns:transaction" maxOccurs="unbounded" minOccurs="1"></element>
+    		<element name="current_value" type="float"></element>
+    	</sequence>
+    	<attribute name="type">
+    		<simpleType>
+    			<restriction base="string">
+    				<enumeration value="equity"></enumeration>
+    				<enumeration value="mf"></enumeration>
+    				<enumeration value="fd"></enumeration>
+    			</restriction>
+    		</simpleType>
+    	</attribute>
+    </complexType>
+
+    <complexType name="transaction">
+    	<sequence>
+    		<element name="investment_amount" type="float"></element>
+    		<element name="date" type="date"></element>
+    		<element name="quantity" type="int"></element>
+    		<element name="unit_price" type="float"></element>
+    	</sequence>
+    </complexType>
+</schema>

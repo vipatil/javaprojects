@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:investments xmlns:tns="http://www.example.org/investment" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/investment investment.xsd ">
+  <tns:investment type="equity">
+    <tns:symbol>tns:symbol</tns:symbol>
+    <tns:name>tns:name</tns:name>
+    <tns:transaction>
+      <tns:investment_amount>0.0</tns:investment_amount>
+      <tns:date>2001-01-01</tns:date>
+      <tns:quantity>0</tns:quantity>
+      <tns:unit_price>0.0</tns:unit_price>
+    </tns:transaction>
+    <tns:current_value>0.0</tns:current_value>
+  </tns:investment>
+</tns:investments>

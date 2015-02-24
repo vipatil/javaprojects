@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:investments xmlns:tns="http://www.example.org/investment" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/investment src/investment.xsd ">
+  <tns:investment type="equity">
+    <tns:symbol>MAHABANK</tns:symbol>
+    <tns:name>Bank of Maharashtra</tns:name>
+    <tns:transaction>
+      <tns:investment_amount>0.0</tns:investment_amount>
+      <tns:date>2001-01-01</tns:date>
+      <tns:quantity>0</tns:quantity>
+      <tns:unit_price>0.0</tns:unit_price>
+    </tns:transaction>
+    <tns:current_value>0.0</tns:current_value>
+  </tns:investment>
+  <tns:investment type="equity">
+    <tns:symbol>GRUH</tns:symbol>
+    <tns:name>Gruh Finance Limited</tns:name>
+    <tns:transaction>
+      <tns:investment_amount>0.0</tns:investment_amount>
+      <tns:date>2001-01-01</tns:date>
+      <tns:quantity>0</tns:quantity>
+      <tns:unit_price>0.0</tns:unit_price>
+    </tns:transaction>
+    <tns:current_value>0.0</tns:current_value>
+  </tns:investment>
+  <tns:investment type="equity">
+    <tns:symbol>LUPIN</tns:symbol>
+    <tns:name>Lupin Limited</tns:name>
+    <tns:transaction>
+      <tns:investment_amount>0.0</tns:investment_amount>
+      <tns:date>2001-01-01</tns:date>
+      <tns:quantity>0</tns:quantity>
+      <tns:unit_price>0.0</tns:unit_price>
+    </tns:transaction>
+    <tns:current_value>0.0</tns:current_value>
+  </tns:investment>
+  <tns:investment type="equity">
+    <tns:symbol>FRL</tns:symbol>
+    <tns:name>Future Retail Limited</tns:name>
+    <tns:transaction>
+      <tns:investment_amount>0.0</tns:investment_amount>
+      <tns:date>2001-01-01</tns:date>
+      <tns:quantity>0</tns:quantity>
+      <tns:unit_price>0.0</tns:unit_price>
+    </tns:transaction>
+    <tns:current_value>0.0</tns:current_value>
+  </tns:investment>
+  <tns:investment type="equity">
+    <tns:symbol>PIDILITIND</tns:symbol>
+    <tns:name>Pidilite Industries Limited</tns:name>
+    <tns:transaction>
+      <tns:investment_amount>0.0</tns:investment_amount>
+      <tns:date>2001-01-01</tns:date>
+      <tns:quantity>0</tns:quantity>
+      <tns:unit_price>0.0</tns:unit_price>
+    </tns:transaction>
+    <tns:current_value>0.0</tns:current_value>
+  </tns:investment>
+</tns:investments>
